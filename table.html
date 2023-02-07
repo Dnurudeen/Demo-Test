@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Work with table</title>
+</head>
+<body>
+    <table border="1" style="text-align: center;" width="100%">
+        <tr height="60px" style="background-color: #000; color: #fff;">
+            <td>Home</td>
+            <td>About</td>
+            <td>Contact</td>
+            <td>Services</td>
+            <td>Account</td>
+        </tr>
+        <style>
+            #bgimage{
+                background-image: url(/images/001.jpg);
+                background-size: cover;
+            }
+            #bgimage2{
+                background-image: url(/images/002.jpg);
+                background-size: cover;
+            }
+        </style>
+        <tr height="250px">
+            <td colspan="2" rowspan="2" style="background-color: rgb(104, 12, 12);">Color</td>
+            <td colspan="3" id="bgimage">Image</td>
+        </tr>
+        <tr height="200px">
+            <td colspan="1" style="background-color: rgb(21, 21, 110);">Color</td>
+            <td colspan="1" id="bgimage2">Image</td>
+            <td colspan="2" style="background-color: rgb(21, 21, 110);">Color</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <audio src="music/5ive_-_Exposed_Emotions_(_Official_Music_Video_)(256k).mp3" controls></audio><br>
+                <a href="music/5ive_-_Exposed_Emotions_(_Official_Music_Video_)(256k).mp3" download>Click to download</a>
+            </td>
+            <td colspan="3">
+                <audio src="music/Adekunle_Gold_-_Jore__28Official_Video_29_ft._Kizz_Daniel.mp3" controls></audio>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <video src="video/vid001.mp4" style="width: 100%; height: auto;" controls></video>    
+            </td>
+            <td colspan="3">
+                <video src="video/vid001.mp4" style="width: 100%; height: auto;" controls></video>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
