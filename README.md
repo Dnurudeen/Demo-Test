@@ -1,1 +1,1 @@
----------This is a DEMO version -------------------
+--------- This is a DEMO version for students -------------------
